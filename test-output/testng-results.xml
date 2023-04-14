@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-14T16:42:58 IST" name="Suite" finished-at="2023-04-14T16:43:17 IST" duration-ms="18575">
+    <groups>
+    </groups>
+    <test started-at="2023-04-14T16:42:58 IST" name="Test" finished-at="2023-04-14T16:43:17 IST" duration-ms="18575">
+      <class name="com.opencart.testclass.HomePageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.opencart.testclass.HomePageTest@7a362b6b]" started-at="2023-04-14T16:42:58 IST" name="loadConfig" finished-at="2023-04-14T16:42:58 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.testclass.HomePageTest@7a362b6b]" started-at="2023-04-14T16:42:58 IST" name="setUp" finished-at="2023-04-14T16:43:07 IST" duration-ms="9123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnDesktopButton()[pri:0, instance:com.opencart.testclass.HomePageTest@7a362b6b]" started-at="2023-04-14T16:43:07 IST" name="clickOnDesktopButton" finished-at="2023-04-14T16:43:07 IST" duration-ms="22" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[tc1 failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: tc1 failed
+at org.testng.Assert.fail(Assert.java:99)
+at com.opencart.testclass.HomePageTest.clickOnDesktopButton(HomePageTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDesktopButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testclass.HomePageTest@7a362b6b]" started-at="2023-04-14T16:43:08 IST" name="tearDown" finished-at="2023-04-14T16:43:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.testclass.HomePageTest@7a362b6b]" started-at="2023-04-14T16:43:09 IST" name="setUp" finished-at="2023-04-14T16:43:17 IST" duration-ms="7469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnDesktopButtonithDatarodvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.testclass.HomePageTest@7a362b6b]" started-at="2023-04-14T16:43:17 IST" name="clickOnDesktopButtonithDatarodvider" data-provider="testDataInput" finished-at="2023-04-14T16:43:17 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestUser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UserTest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hgsdtyf]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ABCDEF]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[EDFG123]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[San]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Alabama]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[91436]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1234567891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDesktopButtonithDatarodvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testclass.HomePageTest@7a362b6b]" started-at="2023-04-14T16:43:17 IST" name="tearDown" finished-at="2023-04-14T16:43:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testclass.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

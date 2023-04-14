@@ -1,0 +1,4 @@
+12:04:2023 - 19:38:25.607 INFO extentreports.App [main] - BeforeMethod statrted log
+12:04:2023 - 19:38:25.623 ERROR extentreports.App [main] - TestMethod statrted log
+12:04:2023 - 19:39:16.102 INFO extentreports.App [main] - BeforeMethod statrted log
+12:04:2023 - 19:39:16.120 ERROR extentreports.App [main] - TestMethod statrted log
