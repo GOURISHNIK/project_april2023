@@ -2,7 +2,10 @@ line1
 line2
 line4
 line3
+<<<<<<< HEAD
 line5
 line6
 line8
 line9
+=======
+>>>>>>> parent of 93d46ea (6)
